@@ -1,0 +1,102 @@
+body {
+    background-color: #fff;
+    color: var(--primary-text-color)}
+        ul {
+            list-style: none;
+        }
+
+
+
+/* текст колір основновний  #757575  */
+/* текст колір додатковий #212121  */
+
+/* кнопка білий #FFFFFF */
+/* колір акцент #2196F3  */
+
+/* фон основний #F5F5F5 */
+/* фон вторинний #F5F4FA  */
+
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --button-text-color: #ffffff;
+    --accent-color: #2196F3;}
+
+/* nav */
+.logo-web{
+    color:#2196F3 ;
+
+    font-weight: 700;}
+
+.logo-studio{
+    color: #000000;
+
+    font-weight: 700;}
+
+.site-nav a,
+.auth-nav a { 
+color: var(--secondary-text-color);}
+
+.site-nav .current {color: var(--accent-color);}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.auth-nav a:hover,
+.auth-nav a:focus {
+color: var(--accent-color);}
+
+/* hero */
+.hero {
+background-color: #2F303A;}
+
+.hero-title{color:#ffffff}
+.hero button{color:var(--button-text-color);
+background-color: var(--accent-color) ;}
+
+/* advantages */
+.title { color: var(--secondary-text-color);}
+.title-list { color: var(--primary-text-color);}
+
+/* what we do */
+.what-wedo{color:var(--secondary-text-color) ;}
+
+/* our team */
+.team{ color: var(--secondary-text-color);}
+
+/* footer */
+.adress{
+background-color: #2F303A;
+} 
+.adress .adress-town {
+    color: #ffffff;
+}
+.adress .adress-mail {color: rgba(255, 255, 255, 0.6);
+}
+.adress .adress-tel {color:rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio.html */
+
+/* filter */
+
+.filter-list {color: var(--secondary-text-color);
+    background-color:#F5F4FA;
+}
+
+.filter-list:hover,
+.filter-list:focus {
+    color:var(--button-text-color);
+    background-color: var(--accent-color)
+ };
+
+
+
+
+
+
+
+
+
+
+
+
