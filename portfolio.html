@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-     <header>
-      <nav>
+    <header>
+      <nav class="nav">
         <a href="/"
           ><span class="logo-web">Web</span
           ><span class="logo-studio">Studio</span></a
@@ -40,63 +40,70 @@
           <li><button type="button" class="filter-list">Маркетинг</button></li>
         </ul>
         <!-- Наші роботи -->
-        <h1>Наші роботи</h1>
-      <ul>
-        <li>
-          <img src="./images/img-portf-1.jpg" alt="Розробники" width="370">
-          <h2>Технокряк</h2>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-2.jpg" alt="Баскетболісти" width="370">
-          <h2>Постер New Orlean vs Golden Star</h2>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-3.jpg" alt="Картинка ресторана" width="370">
-          <h2>Ресторан Seafood</h2>
-          <p>Додаток</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-4.jpg" alt="Навушники" width="370">
-          <h2>Проєкт Prime</h2>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-5.jpg" alt="Дві коробки" width="370">
-          <h2>Проєкт Boxes</h2>
-          <p>Додаток</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-6.jpg" alt="Монітор" width="370">
-          <h2>Inspiration has no Borders</h2>
-          <p>Веб-сайт</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-7.jpg" alt="Книга" width="370">
-          <h2>Видання Limited Edition</h2>
-          <p>Дизайн</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-8.jpg" alt="Ярлик" width="370">
-          <h2>Проєкт LAB</h2>
-          <p>Маркетинг</p>
-        </li>
-        <li>
-          <img src="./images/img-portf-9.jpg" alt="Ноутбук" width="370">
-          <h2>Growing Business</h2>
-          <p>Додаток</p>
-        </li>
-      </ul>
-
+        <h1 hidden>Наші роботи</h1>
+        <ul class="works-list">
+          <li>
+            <img src="./images/img-portf-1.jpg" alt="Розробники" width="370" />
+            <h2 class="title">Технокряк</h2>
+            <p class="title-list">Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/img-portf-2.jpg"
+              alt="Баскетболісти"
+              width="370"
+            />
+            <h2 class="title">Постер New Orlean vs Golden Star</h2>
+            <p class="title-list">Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/img-portf-3.jpg"
+              alt="Картинка ресторана"
+              width="370"
+            />
+            <h2 class="title">Ресторан Seafood</h2>
+            <p class="title-list">Додаток</p>
+          </li>
+          <li>
+            <img src="./images/img-portf-4.jpg" alt="Навушники" width="370" />
+            <h2 class="title">Проєкт Prime</h2>
+            <p class="title-list">Маркетинг</p>
+          </li>
+          <li>
+            <img src="./images/img-portf-5.jpg" alt="Дві коробки" width="370" />
+            <h2 class="title">Проєкт Boxes</h2>
+            <p class="title-list">Додаток</p>
+          </li>
+          <li>
+            <img src="./images/img-portf-6.jpg" alt="Монітор" width="370" />
+            <h2 class="title">Inspiration has no Borders</h2>
+            <p class="title-list">Веб-сайт</p>
+          </li>
+          <li>
+            <img src="./images/img-portf-7.jpg" alt="Книга" width="370" />
+            <h2 class="title">Видання Limited Edition</h2>
+            <p class="title-list">Дизайн</p>
+          </li>
+          <li>
+            <img src="./images/img-portf-8.jpg" alt="Ярлик" width="370" />
+            <h2 class="title">Проєкт LAB</h2>
+            <p class="title-list">Маркетинг</p>
+          </li>
+          <li>
+            <img src="./images/img-portf-9.jpg" alt="Ноутбук" width="370" />
+            <h2 class="title">Growing Business</h2>
+            <p class="title-list">Додаток</p>
+          </li>
+        </ul>
       </section>
     </main>
-      <footer>
+    <footer>
       <!-- Contacts -->
       <a href="/"
-          ><span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></a
-        >
+        ><span class="logo-web">Web</span
+        ><span class="logo-studio">Studio</span></a
+      >
       <address class="adress">
         <ul>
           <li>
@@ -105,7 +112,9 @@
             >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com" class="adress-mail">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="adress-mail"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
             <a href="tel:+380961111111" class="adress-tel">+380961111111</a>
