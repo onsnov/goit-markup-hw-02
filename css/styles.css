@@ -2,9 +2,17 @@ body {
     background-color: #fff;
     color: var(--primary-text-color);
     
+    
 }
-        ul  {
-            list-style: none;
+/* * {text-decoration: none;} */
+
+.link   {text-decoration: none;}
+
+
+
+
+ul  {
+    list-style: none;
         }
 
 /* s */
@@ -26,15 +34,12 @@ body {
     --accent-color: #2196F3;}
 
 /* nav */
-.nav .logo-web {text-decoration: none;}
-.nav .logo-studio {
-    text-decoration: none;
-}
 
 .logo-web{
     color:#2196F3 ;
 
     font-weight: 700;
+    
 }
 
 .logo-studio{
@@ -45,7 +50,7 @@ body {
 .site-nav a,
 .auth-nav a { 
 color: var(--secondary-text-color);
-text-decoration: none;}
+}
 
 .site-nav .current {color: var(--accent-color);}
 
@@ -76,8 +81,7 @@ background-color: var(--accent-color) ;}
 /* footer */
 
 .adress a {
-    text-decoration: none;
-
+    
     font-style: normal;
 } 
 .adress{
