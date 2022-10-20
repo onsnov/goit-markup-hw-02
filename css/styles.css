@@ -1,23 +1,18 @@
 body {
-    background-color: #fff;
-    color: var(--primary-text-color);
-    font-family: roboto;
-    
-    
+  
+  /* color: var(--primary-text-color); */
+  font-family: roboto;
 }
 
+.link {
+  text-decoration: none;
+}
 
-.link {text-decoration: none;}
-
-
-
-
-ul  {
-    list-style: none;
-        }
+ul {
+  list-style: none;
+}
 
 /* s */
-
 
 /* текст колір основновний  #757575  */
 /* текст колір додатковий #212121  */
@@ -27,98 +22,118 @@ ul  {
 
 /* фон основний #F5F5F5 */
 /* фон вторинний #F5F4FA  */
+/* фон hero #2F303A */
 
 :root {
-    --primary-text-color: #757575;
-    --secondary-text-color: #212121;
-    --button-text-color: #ffffff;
-    --accent-color: #2196F3;}
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --button-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --hero-color: #2F303A;
+}
 
 /* nav */
+.link-webstudio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-web {
+  color: #2196f3;
 
-.logo-web{
-    color:#2196F3 ;
-
-    font-weight: 700;
-    
+  font-weight: 700;
 }
 
-.logo-studio{
-    color: #000000;
+.logo-studio {
+  color: #000000;
 
-    font-weight: 700;}
-
-.site-nav a,
-.auth-nav a { 
-color: var(--secondary-text-color);
+  font-weight: 700;
 }
 
-.site-nav .current {color: var(--accent-color);}
+.site-nav .link,
+.auth-nav .link {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.416px;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .current {
+  color: var(--accent-color);
+}
 
 .site-nav a:hover,
 .site-nav a:focus,
 .auth-nav a:hover,
 .auth-nav a:focus {
-color: var(--accent-color);}
-
+  color: var(--accent-color);
+}
+/
 /* hero */
-.hero {
-background-color: #2F303A;}
+.hero  {
+  background-color:var(--hero-color); 
+}
 
-.hero-title{color:#ffffff}
-.hero button{color:var(--button-text-color);
-background-color: var(--accent-color) ;}
+.hero-title {
+  color:var(--button-text-color);
+
+}
+.hero button {
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+}
 
 /* advantages */
-.title { color: var(--secondary-text-color);}
-.title-list { color: var(--primary-text-color);}
+.title {
+  color: var(--secondary-text-color);
+}
+.title-list {
+  color: var(--primary-text-color);
+}
 
 /* what we do */
-.what-wedo{color:var(--secondary-text-color) ;}
+.what-wedo {
+  color: var(--secondary-text-color);
+}
 
 /* our team */
-.team{ color: var(--secondary-text-color);}
+.team {
+  color: var(--secondary-text-color);
+}
 
 /* footer */
 
 .adress a {
-    
-    font-style: normal;
-} 
-.adress{
-background-color: #2F303A;
-} 
-.adress .adress-town{
-    color: #fff;
+  font-style: normal;
 }
-.adress .adress-mail {color: rgba(255, 255, 255, 0.6);
+.adress {
+  background-color: #2f303a;
 }
-.adress .adress-tel {color:rgba(255, 255, 255, 0.6);
+.adress .adress-town {
+  color: #fff;
 }
-
+.adress .adress-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress .adress-tel {
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /* portfolio.html */
 
 /* filter */
 
-.filter-list {color: var(--secondary-text-color);
-    background-color:#F5F4FA;
+.filter-list {
+  color: var(--secondary-text-color);
+  background-color: #f5f4fa;
 }
 
 .filter-list:hover,
 .filter-list:focus {
-    color:var(--button-text-color);
-    background-color: var(--accent-color)
- }
-
-
-
-
-
-
-
-
-
-
-
-
+  color: var(--button-text-color);
+  background-color: var(--accent-color);
+}
