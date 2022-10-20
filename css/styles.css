@@ -1,5 +1,4 @@
 body {
-  
   /* color: var(--primary-text-color); */
   font-family: roboto;
 }
@@ -29,7 +28,7 @@ ul {
   --secondary-text-color: #212121;
   --button-text-color: #ffffff;
   --accent-color: #2196f3;
-  --hero-color: #2F303A;
+  --hero-color: #2f303a;
 }
 
 /* nav */
@@ -72,15 +71,19 @@ ul {
 .auth-nav a:focus {
   color: var(--accent-color);
 }
-/
+
 /* hero */
-.hero  {
-  background-color:var(--hero-color); 
+.hero {
+  background-color: var(--hero-color);
 }
 
 .hero-title {
-  color:var(--button-text-color);
-
+  color: var(--button-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero button {
   color: var(--button-text-color);
@@ -91,18 +94,60 @@ ul {
 .title {
   color: var(--secondary-text-color);
 }
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+}
 .title-list {
   color: var(--primary-text-color);
+}
+
+.advantages-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
 }
 
 /* what we do */
 .what-wedo {
   color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* our team */
 .team {
   color: var(--secondary-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-title-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
