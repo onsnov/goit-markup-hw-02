@@ -100,6 +100,9 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
+
+  border-top-left-radius: 20px;
+  
 }
 
 /* advantages */
@@ -193,6 +196,7 @@ ul {
 
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
+  color: hsl(0, 0%, 5%);
 }
 
 /* .adress-town:hover,
@@ -205,9 +209,11 @@ ul {
   color: var(--accent-color);
 } */
 
+
 address .link:hover,
 address .link:focus{
   color: var(--accent-color);
+  color:rgb(0, 0, 0)
 }
 
 .adress .adress-mail {
@@ -230,6 +236,7 @@ address .link:focus{
 .filter-list {
   color: var(--secondary-text-color);
   background-color: #f5f4fa;
+  border: none;
 
   font-weight: 500;
   font-size: 16px;
@@ -237,10 +244,28 @@ address .link:focus{
   text-align: center;
   letter-spacing: 0.03em;
   font-family: inherit;
+  
 }
+.filter .item:not(:last-child){
+  margin-right: 8px;
+  
+}
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  
+  
+}
+
+  
+
 
 .filter-list:hover,
 .filter-list:focus {
   color: var(--button-text-color);
   background-color: var(--accent-color);
 }
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
